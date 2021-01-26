@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/esgi/main/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/esgi/planning/WeekPlanning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/esgi/planning/WorkingHours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/esgi/room/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/esgi/room/Rooms.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Cours\Troisième année\Premier semestre\Java\JapanHotel\JapanHotel\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ncf0o3aFnm0nMOG8w5KxhnSXwa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" name="Default Changelist" comment="" />
+      <created>1611694078055</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611694078055</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="522" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611694152522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="522" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1611694152522" />
+    <state x="958" y="129" width="388" height="326" key="#com.intellij.ide.util.MemberChooser" timestamp="1611695450404">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="958" y="129" width="388" height="326" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1611695450404" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1611694967128">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611694967128" />
+  </component>
+</project>
