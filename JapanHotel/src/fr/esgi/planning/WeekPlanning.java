@@ -5,7 +5,7 @@ public class WeekPlanning {
     private WorkingHours[] planning;
 
     public WorkingHours getWorkingHours(String name) {
-
+        return null;
     }
 
 }

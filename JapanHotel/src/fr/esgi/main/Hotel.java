@@ -5,5 +5,5 @@ import fr.esgi.room.Rooms;
 
 public class Hotel {
     private Rooms rooms = new Rooms();
-    private Employee[] employees = getEmployeeList();
+    private Employee[] employees; //= getEmployeeList();
 }

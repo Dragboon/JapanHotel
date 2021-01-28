@@ -8,7 +8,7 @@ public class WorkingHours {
     private String endTime;
 
     public String getEmployeeSchedule(String name) {
-
+        return "";
     }
 
 }

@@ -4,7 +4,7 @@ import fr.esgi.planning.WeekPlanning;
 
 import java.util.Date;
 
-public class Employee {
+public abstract class Employee {
 
     private String name;
     private Double salary;
@@ -37,6 +37,12 @@ public class Employee {
     }
 
     public String getTodaySchedule() {
-        return;
+        return "";
+    }
+
+    public abstract void newEmployee();
+
+    public String toString() {
+        return name + "//" + salary + "//" + cosplay + "//" + date + "//" + weekPlanning + "//";
     }
 }
