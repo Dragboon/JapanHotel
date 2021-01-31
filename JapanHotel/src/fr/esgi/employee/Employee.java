@@ -40,6 +40,10 @@ public abstract class Employee {
         return "";
     }
 
+    public String getName() {
+        return name;
+    }
+
     public abstract void newEmployee();
 
     public String toString() {

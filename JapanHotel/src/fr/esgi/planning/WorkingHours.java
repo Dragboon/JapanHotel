@@ -11,4 +11,10 @@ public class WorkingHours {
         return "";
     }
 
+    public WorkingHours(String employeeName, String day, String startingTime, String endTime) {
+        this.employeeName = employeeName;
+        this.day = day;
+        this.startingTime = startingTime;
+        this.endTime = endTime;
+    }
 }
