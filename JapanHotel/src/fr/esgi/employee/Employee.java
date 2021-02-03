@@ -1,26 +1,29 @@
 package fr.esgi.employee;
 
-import fr.esgi.planning.WeekPlanning;
-
-import java.util.Date;
+import java.util.List;
 
 public abstract class Employee {
 
     private String name;
-    private Double salary;
+    private String salary;
     private String cosplay;
-    private Date date;
-    private WeekPlanning weekPlanning;
+    private String date;
 
-    public Employee(String name, Double salary, String cosplay, Date date, WeekPlanning weekPlanning) {
+    public Employee(String name, String salary, String cosplay, String date) {
         this.name = name;
         this.salary = salary;
         this.cosplay = cosplay;
         this.date = date;
-        this.weekPlanning = weekPlanning;
     }
 
-    public Double getSalary() {
+    public Employee(List<String> attributes) {
+        this.name = attributes.get(0);
+        this.cosplay = attributes.get(1);
+        this.date = attributes.get(2);
+        this.salary = attributes.get(3);
+    }
+
+    public String getSalary() {
         return this.salary;
     }
 
@@ -32,10 +35,6 @@ public abstract class Employee {
         return cosplay;
     }
 
-    public WeekPlanning getWeekPlanning() {
-        return this.weekPlanning;
-    }
-
     public String getTodaySchedule() {
         return "";
     }
@@ -44,9 +43,7 @@ public abstract class Employee {
         return name;
     }
 
-    public abstract void newEmployee();
-
     public String toString() {
-        return name + "//" + salary + "//" + cosplay + "//" + date + "//" + weekPlanning + "//";
+        return name + "//" + salary + "//" + cosplay + "//" + date + "//";
     }
 }

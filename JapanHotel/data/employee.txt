@@ -1,2 +1,5 @@
-Waiter//Emilie//43.2//rem//null//null//[Fr, En]//null
-Waiter//Alex//43.2//rem//null//null//[Fr, En]//null
+Waiter//Emilie//43.2//rem//13/02/2020//[Français, Anglais]//null
+Waiter//Alex//43.2//rem//08/02/2020//[Français, Anglais]//null
+Waiter//Steven//43.2//rem//10/02/2020//[Français, Anglais]//null
+Waiter//Arthur//43.2//rem//09/02/2020//[Français, Anglais]//null
+Waiter//Paul//790,00//Paul//09/12/2015//[Espagnol]//[Service, Chant]

@@ -9,8 +9,8 @@ import java.util.List;
 
 public class PlanningWriter {
 
-    File planningFile;
-    FileWriter planningWriter;
+    private File planningFile;
+    private FileWriter planningWriter;
 
     public void newPlanning(String name, String day, String[] workingTime) {
 

@@ -1,13 +1,19 @@
 package fr.esgi.employee;
 
-import fr.esgi.planning.WeekPlanning;
+import java.util.List;
 
-import java.util.Date;
+public class AccountingHR extends Reception {
 
-public class AccountingHR extends Reception{
+    public AccountingHR(String name, String salary, String cosplay, String date, String languages) {
+        super(name, salary, cosplay, date, languages);
+    }
 
+    public AccountingHR(List<String> attributes) {
+        super(attributes);
+    }
 
-    public AccountingHR(String name, Double salary, String cosplay, Date date, WeekPlanning weekPlanning) {
-        super(name, salary, cosplay, date, weekPlanning);
+    @Override
+    public String toString() {
+        return super.toString();
     }
 }

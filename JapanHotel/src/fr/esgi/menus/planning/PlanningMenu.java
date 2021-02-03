@@ -7,42 +7,45 @@ import fr.esgi.filewriters.PlanningWriter;
 import java.util.List;
 import java.util.Scanner;
 
-public class PlanningMenu {
+public class PlanningMenu extends InputMenu {
 
     Scanner scanner;
     String input;
 
-    public String planningMenu() {
+    public PlanningMenu() {
+
+
+        super(new String[] {"Créer un planning\n",
+                "Consulter un planning\n",
+                "Supprimer un planning\n",
+                "Retour"});
+    }
+
+    @Override
+    public int firstPageMenu() {
+        Scanner scanner = new Scanner(System.in);
+        int choice;
+
+        choice = super.display(scanner);
 
         do {
-            System.out.println("1. Créer un planning\n" +
-                    "2. Consulter un planning\n" +
-                    "3. Supprimer un planning\n" +
-                    "4. Retour"
-            );
-            scanner = new Scanner(System.in);
-            input = scanner.nextLine();
-
-            switch (input) {
-                case "1":
-                    input = planningCreation();
+            switch (choice) {
+                case 1:
+                    planningCreation();
                     break;
-                case "2":
-                    input = getPlanning();
+                case 2:
+                    getPlanning();
                     break;
-                case "3":
-                    input = removePlanning();
+                case 3:
+                    removePlanning();
                     break;
-                case "4":
-                    return "-1";
+                case 4:
+                    return -1;
                 default:
                     System.out.println("Veuillez entrer un nombre valide.");
-                    input = "-1";
             }
-        } while (input.equals("-1"));
-
-        return "-1";
-
+        } while (choice != 4);
+        return -1;
     }
 
     private String planningCreation() {
