@@ -13,19 +13,22 @@ public class EmployeeWriter {
 
     private FileWriter employeeWriter;
     private File employeeFile;
+    private final static String USERDIR = "user.dir";
+    private final static String DATAFOLDER = System.getProperty(USERDIR) + File.separator + "data";
+    private final static String EMPLOYEEFILE = DATAFOLDER + File.separator + "employee.txt";
 
     public void writeEmployee(Object employee) throws IOException, EmployeeAlreadyExists {
 
         String objectData;
-        employeeFile = new File(System.getProperty("user.dir") + File.separator + "data" + File.separator + "employee.txt");
+        employeeFile = new File(EMPLOYEEFILE);
         EmployeeReader employeeReader = new EmployeeReader();
 
         if (employee instanceof Employee) {
 
-            DirectoryCreation.checkDirectory(System.getProperty("user.dir") + File.separator + "data");
+            DirectoryCreation.checkDirectory(DATAFOLDER);
             FileCreation.checkFile(employeeFile.getPath());
 
-            if (employeeReader.exists((Employee) employee) == true) {
+            if (employeeReader.exists((Employee) employee)) {
                 throw new EmployeeAlreadyExists("L'employé existe déjà.\n");
             }
             employeeWriter = new FileWriter(employeeFile, true);
@@ -43,7 +46,8 @@ public class EmployeeWriter {
     public void deleteEmployee(List<String> employees, int index, String name) {
 
         String newEmployees = "";
-        File employeeFile = new File(System.getProperty("user.dir") + File.separator + "data" + File.separator + "employee.txt");
+        File employeeFile = new File(EMPLOYEEFILE);
+        PlanningWriter planningWriter = new PlanningWriter();
 
         employees.remove(index);
 
@@ -57,6 +61,7 @@ public class EmployeeWriter {
             employeeWriter.write(newEmployees);
             employeeWriter.flush();
             employeeWriter.close();
+            planningWriter.deletePlanningFile(name);
 
         } catch (IOException e) {
             e.printStackTrace();

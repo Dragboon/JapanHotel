@@ -11,15 +11,19 @@ public class PlanningWriter {
 
     private File planningFile;
     private FileWriter planningWriter;
+    private final static String USERDIR = "user.dir";
+    private final static String DATAFOLDER = System.getProperty(USERDIR) + File.separator + "data";
+    private final static String PLANNINGSFOLDER = DATAFOLDER + File.separator + "plannings";
+    public static final String TXT = ".txt";
 
     public void newPlanning(String name, String day, String[] workingTime) {
 
         String objectData;
-        planningFile = new File(System.getProperty("user.dir") + File.separator + "data" + File.separator + "plannings" + File.separator + name + ".txt");
+        planningFile = new File(PLANNINGSFOLDER + File.separator + name + TXT);
         PlanningReader planningReader = new PlanningReader();
 
-        DirectoryCreation.checkDirectory(System.getProperty("user.dir") + File.separator + "data");
-        DirectoryCreation.checkDirectory(System.getProperty("user.dir") + File.separator + "data" + File.separator + "plannings");
+        DirectoryCreation.checkDirectory(DATAFOLDER);
+        DirectoryCreation.checkDirectory(PLANNINGSFOLDER);
         FileCreation.checkFile(planningFile.getPath());
 
         if (planningReader.checkPlanning(name, day) == true) {
@@ -44,7 +48,7 @@ public class PlanningWriter {
     public void deletePlanning(List<String> plannings, int index, String name) {
 
         String newPlannings = "";
-        planningFile = new File(System.getProperty("user.dir") + File.separator + "data" + File.separator + "plannings" + File.separator + name + ".txt");
+        planningFile = new File(PLANNINGSFOLDER + File.separator + name + TXT);
 
         plannings.remove(index);
 
@@ -61,6 +65,15 @@ public class PlanningWriter {
 
         } catch (IOException e) {
             e.printStackTrace();
+        }
+    }
+
+    public void deletePlanningFile(String name) {
+
+        planningFile = new File(PLANNINGSFOLDER + File.separator + name + TXT);
+
+        if (planningFile.exists()) {
+            planningFile.delete();
         }
     }
 }

@@ -1,5 +1,7 @@
-Waiter//Emilie//43.2//rem//13/02/2020//[Français, Anglais]//null
-Waiter//Alex//43.2//rem//08/02/2020//[Français, Anglais]//null
-Waiter//Steven//43.2//rem//10/02/2020//[Français, Anglais]//null
-Waiter//Arthur//43.2//rem//09/02/2020//[Français, Anglais]//null
-Waiter//Paul//790,00//Paul//09/12/2015//[Espagnol]//[Service, Chant]
+Chef//Marie//900,0//Marie//10/12/2001//4//[Japon, Animés, Jeux-vidéo]
+AccountingHR//Romain//90,81//78@^"close//13/02/2003//[Français]
+AccountingHR//Pauline//1450,20//2b//02/02/2020//[Anglais, Italien]
+CleanService//Zoé//4579,09//Frederica//14/05/2012//Autre
+Chef//Valérie//100,00//Erina//10/10/2010//2//[Animés]
+Chef//Claude//60,00//Sanji//13/13/2000//0//[Japon]
+Waiter//Kevin//345,098//Soma//12/12/2012//[Français, Anglais]//[Service]

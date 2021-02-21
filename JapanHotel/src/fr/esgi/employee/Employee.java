@@ -23,22 +23,6 @@ public abstract class Employee {
         this.salary = attributes.get(3);
     }
 
-    public String getSalary() {
-        return this.salary;
-    }
-
-    public void setCosplay(String cosplay) {
-        this.cosplay = cosplay;
-    }
-
-    public String getCosplay() {
-        return cosplay;
-    }
-
-    public String getTodaySchedule() {
-        return "";
-    }
-
     public String getName() {
         return name;
     }

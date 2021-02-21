@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Utils {
 
-    public static String selectEmployeeMenu(Scanner scanner) {
+    public static String selectEmployeeMenu(Scanner scanner) throws FileNotFoundException {
 
         int choice;
 
@@ -16,9 +16,8 @@ public class Utils {
 
         try {
             employeeNameArray = employeeReader.getEmployeeNames();
-        } catch (FileNotFoundException e) {
-            System.out.println("Vous n'avez pas d'employé.");
-            return "-1"; //Faire exception ou return -1
+        } catch (FileNotFoundException e){
+            throw new FileNotFoundException("Vous n'avez pas d'employé.");
         }
 
         choice = InputMenu.display(scanner, employeeNameArray);

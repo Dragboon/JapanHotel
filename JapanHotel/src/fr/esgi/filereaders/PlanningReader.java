@@ -43,7 +43,7 @@ public class PlanningReader {
         List<String> planning = new ArrayList<>();
 
         if (!file.exists()) {
-            throw new FileNotFoundException("Le fichier du planning de l'employé est introuvable.\n\n");
+            throw new FileNotFoundException("Le fichier du planning de l'employé est introuvable.");
         }
 
         scanner = new Scanner(file);
@@ -54,7 +54,7 @@ public class PlanningReader {
         }
 
         if(planning.isEmpty()){
-            throw new EmptyFileException("L'employé sélectionné n'a pas de planning.\n\n");
+            throw new EmptyFileException("L'employé sélectionné n'a pas de planning.");
         }
 
         return planning;

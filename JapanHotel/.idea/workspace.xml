@@ -2,67 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JapanHotel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/esgi/exceptions/EmployeeAlreadyExists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/esgi/exceptions/EmployeeNotExists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/esgi/exceptions/EmptyFileException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/esgi/menus/Homepage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/esgi/menus/InputMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/esgi/menus/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/esgi/menus/employee/CreateMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/esgi/menus/employee/EmployeeMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/esgi/menus/employee/RemoveMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/esgi/menus/employee/SpecialAttributes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/esgi/menus/planning/RemoveMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Emilie.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/employee.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/employee.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/employee/AccountingHR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/employee/AccountingHR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/employee/Chef.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/employee/Chef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/employee/CleanService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/employee/CleanService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/plannings/Alex.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/plannings/Emilie.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/employee/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/employee/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/employee/Reception.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/employee/Reception.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/employee/RoomService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/employee/RoomService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/employee/Waiter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/employee/Waiter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/filereaders/EmployeeReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/filereaders/EmployeeReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/filereaders/PlanningReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/filereaders/PlanningReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/filewriters/EmployeeWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/filewriters/EmployeeWriter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/filewriters/PlanningWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/filewriters/PlanningWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/main/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/main/Hotel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/menus/PlanningMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/planning/WeekPlanning.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/planning/WorkingHours.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/esgi/employee/AccountingHR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/employee/AccountingHR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/esgi/employee/Chef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/employee/Chef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/esgi/employee/CleanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/employee/CleanService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/esgi/employee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/employee/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/esgi/employee/Reception.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/employee/Reception.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/esgi/employee/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/employee/RoomService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/esgi/employee/Waiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/employee/Waiter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/esgi/filereaders/EmployeeReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/filereaders/EmployeeReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/esgi/filereaders/PlanningReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/filereaders/PlanningReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/menus/InputMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/menus/InputMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/menus/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/menus/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/menus/employee/CreateMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/menus/employee/CreateMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/menus/employee/GetMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/menus/employee/GetMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/menus/employee/RemoveMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/menus/employee/RemoveMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/menus/employee/SpecialAttributes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/menus/employee/SpecialAttributes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/menus/planning/CreateMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/menus/planning/CreateMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/menus/planning/PlanningMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/menus/planning/PlanningMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/menus/planning/RemoveMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JapanHotel/fr/esgi/menus/planning/RemoveMenu.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/esgi/filewriters/EmployeeWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/filewriters/EmployeeWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/esgi/filewriters/PlanningWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/filewriters/PlanningWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/esgi/main/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/main/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/esgi/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/esgi/menus/PlanningMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/menus/planning/PlanningMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/esgi/planning/WeekPlanning.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/esgi/planning/WorkingHours.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/esgi/menus/InputMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/menus/InputMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/esgi/menus/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/menus/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/esgi/menus/employee/CreateMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/menus/employee/CreateMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/esgi/menus/employee/EmployeeMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/menus/employee/EmployeeMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/esgi/menus/employee/RemoveMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/menus/employee/RemoveMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/esgi/menus/employee/SpecialAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/menus/employee/SpecialAttributes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/esgi/menus/planning/PlanningMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/menus/planning/PlanningMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/esgi/menus/planning/RemoveMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/menus/planning/RemoveMenu.java" afterDir="false" />
     </list>
     <list id="baba1953-27fd-4b73-a175-4b05920ccb76" name="Changes by Dolcolost" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fr/esgi/menus/employee/GetMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/esgi/menus/planning/CreateMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/esgi/employee/AccountingHR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/employee/AccountingHR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/esgi/employee/CleanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/employee/CleanService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/esgi/employee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/employee/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/esgi/employee/Reception.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/employee/Reception.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/esgi/employee/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/employee/RoomService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/esgi/employee/Waiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/employee/Waiter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/esgi/filereaders/EmployeeReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/filereaders/EmployeeReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/esgi/filereaders/PlanningReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/filereaders/PlanningReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/esgi/menus/PlanningMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/menus/planning/PlanningMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/esgi/menus/InputMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/menus/InputMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/esgi/menus/employee/GetMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/menus/employee/GetMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/esgi/menus/planning/CreateMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/esgi/menus/planning/CreateMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,109 +69,10 @@
     </option>
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/fr/esgi/menus/planning/PlanningMenu.java">
+    <file path="$PROJECT_DIR$/src/fr/esgi/menus/InputMenu.java">
       <ranges>
-        <range start1="0" end1="1" start2="0" end2="1" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="2" end1="3" start2="2" end2="3" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="4" end1="5" start2="4" end2="6" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="6" end1="6" start2="7" end2="8" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="9" end1="10" start2="11" end2="12" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="11" end1="13" start2="13" end2="15" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="14" end1="15" start2="16" end2="17" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="17" end1="28" start2="19" end2="26" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="29" end1="31" start2="27" end2="29" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="32" end1="34" start2="30" end2="32" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="35" end1="40" start2="33" end2="35" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="41" end1="45" start2="36" end2="37" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="47" end1="75" start2="39" end2="40" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="80" end1="82" start2="45" end2="47" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="84" end1="85" start2="49" end2="51" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="86" end1="88" start2="52" end2="62" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="89" end1="98" start2="63" end2="63" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="99" end1="197" start2="64" end2="64" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="198" end1="219" start2="65" end2="65" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-        <range start1="220" end1="236" start2="66" end2="66" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/fr/esgi/employee/Reception.java">
-      <ranges>
-        <range start1="2" end1="4" start2="2" end2="3" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="5" end1="5" start2="4" end2="5" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="9" end1="10" start2="9" end2="10" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="11" end1="13" start2="11" end2="14" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-        <range start1="15" end1="19" start2="16" end2="19" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-        <range start1="20" end1="20" start2="20" end2="25" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/fr/esgi/employee/RoomService.java">
-      <ranges>
-        <range start1="2" end1="3" start2="2" end2="9" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-        <range start1="4" end1="5" start2="10" end2="11" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="6" end1="6" start2="12" end2="25" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/fr/esgi/filereaders/EmployeeReader.java">
-      <ranges>
-        <range start1="7" end1="7" start2="7" end2="8" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="18" end1="19" start2="19" end2="20" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="38" end1="39" start2="39" end2="40" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-        <range start1="42" end1="44" start2="43" end2="45" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-        <range start1="45" end1="47" start2="46" end2="48" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-        <range start1="48" end1="49" start2="49" end2="50" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-        <range start1="50" end1="52" start2="51" end2="53" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="53" end1="59" start2="54" end2="55" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="61" end1="61" start2="57" end2="121" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="62" end1="63" start2="122" end2="122" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/fr/esgi/employee/AccountingHR.java">
-      <ranges>
-        <range start1="2" end1="5" start2="2" end2="3" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="6" end1="8" start2="4" end2="5" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="9" end1="11" start2="6" end2="8" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-        <range start1="12" end1="13" start2="9" end2="13" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-        <range start1="14" end1="14" start2="14" end2="19" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/fr/esgi/employee/CleanService.java">
-      <ranges>
-        <range start1="2" end1="3" start2="2" end2="6" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-        <range start1="6" end1="6" start2="9" end2="23" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/fr/esgi/filereaders/PlanningReader.java">
-      <ranges>
-        <range start1="2" end1="2" start2="2" end2="4" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="37" end1="38" start2="39" end2="40" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-        <range start1="43" end1="45" start2="45" end2="46" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="47" end1="49" start2="48" end2="49" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-        <range start1="50" end1="51" start2="50" end2="51" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-        <range start1="52" end1="58" start2="52" end2="60" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-        <range start1="59" end1="61" start2="61" end2="61" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/fr/esgi/employee/Waiter.java">
-      <ranges>
-        <range start1="2" end1="7" start2="2" end2="3" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="10" end1="12" start2="6" end2="8" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-        <range start1="13" end1="15" start2="9" end2="11" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="16" end1="17" start2="12" end2="13" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="19" end1="22" start2="15" end2="19" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="26" end1="27" start2="23" end2="24" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/fr/esgi/employee/Employee.java">
-      <ranges>
-        <range start1="2" end1="5" start2="2" end2="3" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="9" end1="10" start2="7" end2="8" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-        <range start1="11" end1="13" start2="9" end2="10" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="14" end1="15" start2="11" end2="12" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="19" end1="20" start2="16" end2="16" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="21" end1="21" start2="17" end2="24" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="22" end1="23" start2="25" end2="26" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
-        <range start1="33" end1="37" start2="36" end2="36" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="46" end1="48" start2="45" end2="45" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
-        <range start1="49" end1="50" start2="46" end2="47" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
+        <range start1="21" end1="21" start2="21" end2="22" changelist="fa83c310-4d1e-4b7c-ac77-798f1d2b887b" />
+        <range start1="25" end1="26" start2="26" end2="27" changelist="baba1953-27fd-4b73-a175-4b05920ccb76" />
       </ranges>
     </file>
   </component>
@@ -245,17 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -277,6 +141,12 @@
       <workItem from="1612359008223" duration="35000" />
       <workItem from="1612359053922" duration="3000" />
       <workItem from="1612359116309" duration="29781000" />
+      <workItem from="1612429019932" duration="2982000" />
+      <workItem from="1612448217613" duration="2520000" />
+      <workItem from="1613766335137" duration="5724000" />
+      <workItem from="1613833040316" duration="3512000" />
+      <workItem from="1613913616947" duration="320000" />
+      <workItem from="1613944696971" duration="2108000" />
     </task>
     <servers />
   </component>
@@ -293,5 +163,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
